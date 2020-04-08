@@ -83,7 +83,7 @@ It may also be used for more destructive actions like deleting an item. However,
 
 ### Swipe directions
 
-Swipe works in all cardinal directions: up, down, left, and right. Each swipe direction can hold its own swipe items or content, but only one instance of a direction can be set at a time on a single swipe-able element.
+Swipe works in all cardinal directions: up, down, left, and right. Each swipe direction can hold its own swipe items or content, but only one instance of a direction can be set at a time on a single swipe-able element. Note that the directions are where the revealed text is placed. The [LeftItems](/uwp/api/windows.ui.xaml.controls.swipecontrol.LeftItems) are *shown* on the left; to reveal them the user will swipe to the *right*.
 
 For example, you cannot have two [LeftItems](/uwp/api/windows.ui.xaml.controls.swipecontrol.LeftItems) definitions on the same SwipeControl.
 
